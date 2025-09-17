@@ -8,7 +8,7 @@ A comprehensive Flutter application demonstrating core UI design concepts and im
 - **Name**: Haswinchony
 - **Roll Number**: 23AG1A0555
 - **Course**: UI Flutter Design Lab
-- **Academic Year**: 2023-24
+- **Academic Year**: 2024-25
 
 ---
 

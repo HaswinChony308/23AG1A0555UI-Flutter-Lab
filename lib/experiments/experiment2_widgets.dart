@@ -166,7 +166,7 @@ class Experiment2Screen extends StatelessWidget {
                     Container(
                       width: 120,
                       height: 120,
-                      color: Colors.red.withOpacity(0.7),
+                      color: Colors.red.withValues(alpha: 0.7),
                     ),
                     Positioned(
                       left: 20,
@@ -174,7 +174,7 @@ class Experiment2Screen extends StatelessWidget {
                       child: Container(
                         width: 100,
                         height: 100,
-                        color: Colors.green.withOpacity(0.7),
+                        color: Colors.green.withValues(alpha: 0.7),
                       ),
                     ),
                     Positioned(
@@ -183,7 +183,7 @@ class Experiment2Screen extends StatelessWidget {
                       child: Container(
                         width: 80,
                         height: 80,
-                        color: Colors.blue.withOpacity(0.7),
+                        color: Colors.blue.withValues(alpha: 0.7),
                         child: const Center(
                           child: Text('Stacked', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
                         ),

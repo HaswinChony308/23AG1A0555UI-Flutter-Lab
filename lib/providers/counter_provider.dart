@@ -3,7 +3,7 @@ import 'package:flutter/foundation.dart';
 class CounterProvider extends ChangeNotifier {
   int _counter = 0;
   String _message = 'Hello from Provider!';
-  List<String> _items = [];
+  final List<String> _items = [];
 
   int get counter => _counter;
   String get message => _message;

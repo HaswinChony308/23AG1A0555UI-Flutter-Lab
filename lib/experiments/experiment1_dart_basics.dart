@@ -223,7 +223,7 @@ class Person {
 class Student extends Person {
   String course;
   
-  Student(String name, int age, this.course) : super(name, age);
+  Student(super.name, super.age, this.course);
   
   @override
   String toString() => "${super.toString()}, Course: $course";
